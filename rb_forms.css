@@ -61,17 +61,35 @@ legend {
     padding: 5px;
 }
 
-
 /* Text Area Styles */
-
-
+textarea {
+    margin-top: 10px;
+    height: 100px;
+    width: 95%;
+    
+}
 
 /* Spinner Styles */
-
+div.formRow > input#dineSpin {
+    -webkit-flex: 0 0 50px;
+    -moz-flex: 0 0 50px;
+    -ms-flex: 0 0 50px;
+    flex: 0 0 50px;
+}
 
 
 /* Form Button Styles */
+div#buttons {
+    width: 100%;
+    text-align: center;
+}
 
+input[type='submit'], 
+input[type='reset'] {
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 15px;
+}
 
 
 /* Validation Styles */
